@@ -5,8 +5,11 @@ body {
   width: auto;
   height: auto;
   background-color: #000;
-  color: #33f;
+  color: #0f0;
   box-shadow: 0 0 0 0 #000;
+}
+img{
+  border-radius: 20px;
 }
 a {
   display: flex;
@@ -14,6 +17,7 @@ a {
   align-items: center;
   width: 320px;
   height: 250px;
+  border-radius: 18px;
   background-color: #111;
   margin: 10px;
   padding: 5px;
@@ -42,5 +46,5 @@ embed {
 
 /* Aumentar el tamaño de la imagen cuando el cursor está sobre ella */
 .photo-container img:hover {
-  transform: scale(1.1);
+  transform: scale(1.07);
 }
