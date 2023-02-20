@@ -46,5 +46,5 @@ embed {
 
 /* Aumentar el tamaño de la imagen cuando el cursor está sobre ella */
 .photo-container img:hover {
-  transform: scale(1.07);
+  transform: scale(1.08);
 }
