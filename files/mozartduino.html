@@ -1,23 +1,4 @@
-<!-- <!DOCTYPE html>
-<html>
-  <head>
-    <title>Compositor Random Arduino</title>
-    <link rel="icon" type="image/png" href="mozart.png">
-  </head>
-  <body style="background-color:#444455;">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/X0ynsQFPNqg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/ZthL73OeHDc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/uxCWCh_b65w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/E9F4xYv_2f0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/hfiOMIjBqpA?start=3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/5N9xpdhkuvM?start=3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-  </body>
-</html> -->
 
 <!DOCTYPE html>
 <html>
@@ -54,7 +35,7 @@
   <body style="background-color:#444455;">
     <header>
       <h1>Compositor Automático con Arduino</h1>
-      <h2><a href="https://arielrobotti.github.io/">Currículum vitae del autor</a></h2>
+      <h2><a href="https://arielrobotti.github.io/">Perfil profesional del autor</a></h2>
       <p>Este proyecto consiste en la creación de música aleatoria mediante la implementación de reglas musicales en un dispositivo Arduino Uno. El algoritmo de generación de notas, programado en lenguaje C++, se ejecuta en el dispositivo y utiliza la señal de ruido eléctrico ambiente capturado por una entrada analógica del Arduino, la cual es digitalizada por su convertidor analógico a digital de 10 bits, como fuente de aleatoriedad.
       Estas lecturas se utilizan para determinar la frecuencia de las notas generadas, con mayor o menor probabilidad según las expectativas teóricas de la música, y para establecer el volumen de cada nota. La duración de las notas se determina también, mediante un valor de tiempo generado aleatoriamente y se envía un mensaje asincrónico (noteOff) para apagar la nota después de que se haya completado el tiempo.
       Las notas generadas se envían a través de un puerto serial a un software de producción musical, que se encarga de reproducir el sample correspondiente a cada nota, junto con el instrumento especificado por el algoritmo de generación.
