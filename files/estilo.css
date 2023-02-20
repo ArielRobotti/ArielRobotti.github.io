@@ -3,6 +3,9 @@ body {
   background-image: url('muro.jpg');
   background-size: cover;
 }
+.index {
+  background-color: #222;
+}
 .volver {
   height: auto;
   align-self: center;
