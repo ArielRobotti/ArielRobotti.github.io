@@ -1,12 +1,20 @@
 body {
-  background-color: #000;
+  background-color: #222;
+  background-image: url('muro.jpg');
+  background-size: cover;
 }
 .volver {
-  width: auto;
   height: auto;
+  align-self: center;
   background-color: #000;
   color: #0f0;
+  padding: 0px; 
   box-shadow: 0 0 0 0 #000;
+
+}
+.volver:hover {
+  color: #00f;
+
 }
 img{
   border-radius: 20px;
@@ -18,11 +26,19 @@ a {
   width: 320px;
   height: 250px;
   border-radius: 18px;
-  background-color: #111;
-  margin: 10px;
+  background-color: #222;
+  margin: 20px;
   padding: 5px;
   box-shadow: 2px 2px 10px 2px #0f0;
+  transition: box-shadow 0.12s ease;
+  transition: transform 0.12s ease-in-out;
 }
+.cont_img:hover {
+  box-shadow: 2px 2px 10px 5px #66f;
+  background-color: #333;
+  transform: scale(1.08);
+}
+
 embed {
         width: 90%;
         height: 1600px;
@@ -48,3 +64,13 @@ embed {
 .photo-container img:hover {
   transform: scale(1.08);
 }
+footer {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: #0f0;
+  text-align: center;
+
+}
+
+
