@@ -40,8 +40,7 @@ a {
   margin: 20px;
   padding: 5px;
   box-shadow: 7px 7px 10px 2px #0f0;
-  transition: box-shadow 0.12s ease;
-  transition: transform 0.12s ease-in-out;
+  transition: box-shadow 0.12s ease, transform 0.12s ease-in-out;
 }
 .cont_img:hover {
   box-shadow: 7px 7px 10px 3px #66f;
@@ -81,5 +80,4 @@ footer {
   color: #0f0;
   margin: 80px 0px 0px 10px;
   text-align: center;
-
 }
