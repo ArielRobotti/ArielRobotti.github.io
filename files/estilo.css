@@ -1,6 +1,6 @@
 body {
   background-color: #222;
-  background-image: url('muro2.jpg');
+  background-image: url('black-1072366_1920.jpg');
   background-size: cover;
   background-attachment: fixed; 
   background-position: center 30%;
@@ -14,6 +14,10 @@ h2 {
   text-align: center;
   font-size: 28px;
 
+}
+a{
+  text-decoration: none;
+  color: #0f0;
 }
 button {
   background-color: #4CAF50;
@@ -29,25 +33,23 @@ button:hover {
   box-shadow: 7px 7px 10px 5px #6f6;
   transform: scale(1.08);
 }
-a {
+.cont_img {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 315px;
-  height: 210px;
-  border-radius: 18px;
+  width: 300px;
+  height: 200px;
+  border-radius: 20px;
   background-color: #222;
   margin: 20px;
-  padding: 5px;
   box-shadow: 7px 7px 10px 2px #0f0;
-  transition: box-shadow 0.12s ease, transform 0.12s ease-in-out;
+  transition: box-shadow 1s ease, transform 0.1s ease-in-out;
 }
 .cont_img:hover {
   box-shadow: 7px 7px 10px 3px #66f;
   background-color: #333;
-  transform: scale(1.08);
+  transform: scale(1.15);
 }
-
 embed {
         width: 90%;
         height: 1600px;
@@ -68,14 +70,10 @@ embed {
   width: 300px;
   height: 200px;
   border-radius: 20px;
-  margin: 10px;
-  transition: transform 0.12s ease-in-out;
 }
 
 /* Aumentar el tamaño de la imagen cuando el cursor está sobre ella */
-.photo-container img:hover {
-  transform: scale(1.08);
-}
+
 footer {
   color: #0f0;
   margin: 80px 0px 0px 10px;
