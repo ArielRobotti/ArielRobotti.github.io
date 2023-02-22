@@ -1,9 +1,10 @@
-body {
-  background-color: #222;
+
+.bg-image {
   background-image: url('black-1072366_1920.jpg');
-  background-size: cover;
-  background-attachment: fixed; 
-  background-position: center 30%;
+  background-size: 100% 150%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 .index {
   background-color: #222;
