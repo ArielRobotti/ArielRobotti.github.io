@@ -1,5 +1,6 @@
 
 .bg-image {
+  background-color: #222;
   background-image: url('black-1072366_1920.jpg');
   background-size: 100% 150%;
   background-attachment: fixed;
