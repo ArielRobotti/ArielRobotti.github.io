@@ -1,0 +1,695 @@
+/*no va dentro de ningun condicional o media querie y es lo que llamamos escritorio primero
+1400 mayor 
+*/
+@import url('https://fonts.googleapis.com/css2?family=Anuphan:wght@100;200;300;400;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Anuphan', sans-serif;
+    color: #333;
+}
+
+/*---------header---------------------*/
+.header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+/*---------headerNav---------------------*/
+.headerNav {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background: #303840;
+}
+
+.contenedorLogo {
+    padding-left: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 25%;
+    font-size: 130%;
+    color: white;
+}
+
+.contenedorLogo img {
+    width: 100%;
+    object-fit: cover;
+}
+.contenedorLogo div{
+    text-align: center
+}
+
+.navegacion {
+    display: flex;
+    justify-content: right;
+
+    width: 70%;
+}
+
+.listaNav {
+    margin-right: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    list-style: none;
+    text-align: center;
+}
+
+.linkNav {
+    color: #fff;
+    text-decoration: none;
+}
+
+.comprar {
+    font-weight: bold;
+    color: #148d1a;
+}
+
+/*--------- Fin headerNav -------------------*/
+/*--------- La Conferencia ------------------*/
+.laConferencia {
+    height: 100%;
+    background: url("../assets/img/madero.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: end;
+}
+
+.contenedorTextConf {
+    background-color: rgba(53, 116, 141, 0.253);
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+
+.contenedorTextConf p {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/*---------Fin La Conferencia --------------*/
+/* .btns{
+    height: 200px;
+
+} */
+.btn {
+    padding: 10px;
+    border-color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+
+    color: white;
+    text-decoration: none;
+}
+
+.contenedorTextConf .btnComprar {
+    border-color: #107415;
+    background-color: #107415;
+}
+
+/*------------ fin header-------------------*/
+/*--------------- Main----------------------*/
+.tituloSmall {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.tituloLarge {
+    text-align: center;
+    font-size: 40px;
+}
+
+.padreCards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /* height: 65vh; */
+    column-gap: 4%;
+
+}
+
+.card {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    width: 70%;
+    height: 85%;
+    border-radius: 7px;
+    margin-bottom: 20px;
+}
+
+.card img {
+    width: 100%;
+    height: 30%;
+    object-fit: cover;
+    border-radius: 7px 7px 0px 0px; /*desde arriba en sentido horario*/
+}
+
+.cardBody {
+    height: 70%;
+    margin: 20px;
+}
+
+.cardTags {
+    display: flex;
+    flex-direction: row;
+}
+
+.skill {
+    margin-right: 10px;
+    padding: 1px 6px;
+    border-style: none;
+    border-radius: 4px;
+}
+
+.jsTag {
+    background-color: #ffcc22;
+}
+
+.reactTag {
+    background-color: #0ebde9;
+}
+
+.negociosTag {
+    color: white;
+    background-color: #777;
+}
+
+.startupsTag {
+    color: white;
+    background-color: #d13b4f;
+}
+
+.oradorName {
+    display: flex;
+    justify-content: left;
+    margin-bottom: 20px;
+}
+
+.lugarFecha {
+    display: flex;
+    align-items: center;
+    /* height: 60vh; */
+    background-image: linear-gradient(to bottom, #00000026, #000000c2, #00000026), url("../assets/img/honolulu.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: white;
+    width: 100%;
+    padding: 0px 25%;
+}
+
+.descripciónEvento {
+    margin: 20px 0px;
+}
+
+.verMas {
+    width: max-content;
+    margin-bottom: 10px;
+}
+.formularioOrador{
+    font-size: 1.2em;
+    color: black;
+    width:90%;
+    height: 35%;
+    margin:2rem auto;
+    text-align: center;
+}
+.formularioOrador p {
+    font-size: .7em;
+}
+.inputNA{
+    width: 49%;
+    height: 2rem;
+    margin: 1rem 0rem 1rem 0rem;
+    border-radius: 5px;
+    border: 1px solid rgb(198, 198, 198);
+    padding-left: 0.5rem;
+}
+.textArea{
+    width: 98%;
+    height: 6rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    border: 1px solid rgb(198, 198, 198);
+}
+.advice{
+    font-size: 0.8em;
+    color: #555;
+    text-align: left;
+    margin-left: 9px;
+}
+.formSubmit{
+    width: 99%;
+    height: 4rem;
+    border-radius: 5px;
+    border: none;
+    background-color: rgba(112, 194, 57, 0.897);
+    color: white;
+    font-size: 1.4em;
+    cursor: pointer;
+    margin-left: 7px;
+    margin-top: 1rem;
+}
+.contenedorFooter{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 10px;
+    align-items: center;
+    background-color: #26384b;   
+}
+.contenedorFooter a{
+    text-decoration: none;
+
+    color: #fff;
+
+}
+.inst{
+    position: fixed;
+    width: 60px;
+    bottom: 100px;
+    right: 20px;
+}
+.wsp{
+    position: fixed;
+    width: 60px;
+    bottom: 20px;
+    right: 20px;
+}
+
+@media screen and (min-width: 1038px) and (max-width:1754px){
+    .headerNav {
+        height: 120px;
+        background-color: rgb(53, 58, 64);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 40px 1% 40px 1%;
+        
+    }
+    .contenedorLogo {
+        padding-left: 5%;
+        display: flex;
+        flex-direction: initial;
+        justify-content: center;
+        width: 25%;
+        color: white;
+    }
+    .contenedorLogo a {
+        margin-right: 8%;
+        width: 80px;
+    }
+    .contenedorLogo img {
+        width: 100px;
+        object-fit: cover;
+    }
+    .contenedorLogo div {
+        padding-top: 8px;
+        padding-left: 6%;
+        text-align: left;
+        font-size: .9em;
+    }
+    .navegacion {
+        width: 75%;
+    }
+
+    .listaNav {
+        margin-left: 10%;
+        width: 100%;
+        padding-top: 12px;
+        display: flex;
+        flex-direction: initial;
+        justify-content: space-around;
+        list-style: none;
+        text-align: center;
+    }
+    .comprar {
+        font-weight: bold;
+        color: #0abe13;
+    }
+    .laConferencia {
+        height: 85%;
+        justify-content: end;
+        align-items: center;
+        background: linear-gradient(to bottom, #00000026, #000000c2, #00000026), url("../assets/img/ba1.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        padding-right: 5rem;
+
+    }
+    .contenedorTextConf {
+        background-color: initial;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        color: white;
+        width: 55%;
+
+        text-align: right;
+        margin-right: 7%;
+    }
+
+    .contenedorTextConf p {
+        margin-top: 1rem;
+        margin-bottom: 3rem;
+        padding-left: initial;
+        padding-right: initial;
+    }
+    .padreCards{
+        flex-direction: initial;
+    }
+    .card{
+        width: 25%;
+        font-size: .8em;
+    }
+    .lugarFecha {
+        background-image: none;
+        
+        height: 80vh;
+    }
+    .left {
+        height: 100%;
+        background-image: url("../assets/img/honolulu.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 49%;
+    }
+    .right {
+        background-color: #333;
+        /* padding-left: 1px; */
+        width: 40%;
+        padding: 25px;
+
+    }
+    .formularioOrador{
+        width: 50%;
+    }
+    .contenedorFooter{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 30px 10% 30px 10%; /*desde arriba en sentido horario*/
+        align-items: center;
+        background-color: #26384b;   
+    }
+    .inst{
+        width: 50px;
+    }
+    .wsp{
+        width: 50px;
+    }
+    /*----------- Pseudo clases --------------*/
+    .resizable{
+        transition: transform 0.15s ease-in-out;
+    }
+    .resizable:hover{
+        transform: scale(1.06);
+    }
+}
+
+@media screen and (min-width: 1755px) {
+    .headerNav {
+        height: 120px;
+        background-color: rgb(53, 58, 64);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 2rem;
+    }
+
+    .contenedorLogo {
+        padding-left: 6%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 25%;
+        color: white;
+    }
+
+    .contenedorLogo a {
+        margin-right: 8%;
+        width: 100px;
+    }
+
+    .contenedorLogo img {
+        width: 100px;
+        object-fit: cover;
+    }
+
+    .contenedorLogo div {
+        padding-top: 4px;
+        font-size: 1.3em;
+        text-align: left;
+    }
+
+    .navegacion {
+        width: 75%;
+
+    }
+
+    .listaNav {
+        margin-left: 23%;
+        width: 100%;
+        padding-top: 12px;
+        padding-right: 5%;
+        font-size: 1.4em;
+        display: flex;
+        flex-direction: initial;
+        justify-content: space-between;
+        list-style: none;
+        text-align: center;
+    }
+
+    .linkNav {
+        margin-right: 12px;
+    }
+
+    .comprar {
+        font-weight: bold;
+        color: #148d1a;
+    }
+
+    .laConferencia {
+        height: 85%;
+        justify-content: end;
+        align-items: center;
+        background: linear-gradient(to bottom, #00000026, #000000c2, #00000026), url("../assets/img/ba1.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        padding-right: 5rem;
+
+    }
+
+    .contenedorTextConf {
+        background-color: initial;
+        height: 240px;
+        display: flex;
+        flex-direction: column;
+        color: white;
+        width: 40%;
+        font-size: 1.4em;
+        text-align: right;
+        margin-right: 7%;
+    }
+
+    .contenedorTextConf p {
+        margin-top: 1rem;
+        margin-bottom: 3rem;
+        padding-left: initial;
+        padding-right: initial;
+    }
+    .padreCards{
+        flex-direction: initial;
+    }
+    .card{
+        width: 25%;
+        font-size: .8em;
+    }
+
+    .lugarFecha {
+        background-image: none;
+        background-color: #333;
+        height: 80vh;
+    }
+    .left {
+        height: 100%;
+        background-image: url("../assets/img/honolulu.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 49%;
+    }
+    .right {
+        padding-left: 1px;
+        width: 40%;
+        padding: 25px;
+
+    }
+    .formularioOrador{
+        width: 50%;
+    }
+    .contenedorFooter{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 30px 10% 30px 10%;
+        align-items: center;
+        background-color: #26384b;   
+    }
+
+}
+
+@media screen and (min-width: 1038px) and (max-width:1754px){
+    .headerNav {
+        height: 120px;
+        background-color: rgb(53, 58, 64);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 40px 1% 40px 1%;
+        
+    }
+    .contenedorLogo {
+        padding-left: 5%;
+        display: flex;
+        flex-direction: initial;
+        justify-content: center;
+        width: 25%;
+        color: white;
+    }
+    .contenedorLogo a {
+        margin-right: 8%;
+        width: 80px;
+    }
+    .contenedorLogo img {
+        width: 100px;
+        object-fit: cover;
+    }
+    .contenedorLogo div {
+        padding-top: 8px;
+        padding-left: 6%;
+        text-align: left;
+        font-size: .9em;
+    }
+    .navegacion {
+        width: 75%;
+    }
+
+    .listaNav {
+        margin-left: 10%;
+        width: 100%;
+        padding-top: 12px;
+        display: flex;
+        flex-direction: initial;
+        justify-content: space-around;
+        list-style: none;
+        text-align: center;
+    }
+    .comprar {
+        font-weight: bold;
+        color: #0abe13;
+    }
+    .laConferencia {
+        height: 85%;
+        justify-content: end;
+        align-items: center;
+        background: linear-gradient(to bottom, #00000026, #000000c2, #00000026), url("../assets/img/ba1.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        padding-right: 5rem;
+
+    }
+    .contenedorTextConf {
+        background-color: initial;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        color: white;
+        width: 55%;
+
+        text-align: right;
+        margin-right: 7%;
+    }
+
+    .contenedorTextConf p {
+        margin-top: 1rem;
+        margin-bottom: 3rem;
+        padding-left: initial;
+        padding-right: initial;
+    }
+    .padreCards{
+        flex-direction: initial;
+    }
+    .card{
+        width: 25%;
+        font-size: .8em;
+    }
+
+    .lugarFecha {
+        background-image: none;
+        background-color: #333;
+        height: 80vh;
+    }
+    .left {
+        height: 100%;
+        background-image: url("../assets/img/honolulu.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 49%;
+    }
+    .right {
+        padding-left: 1px;
+        width: 40%;
+        padding: 25px;
+
+    }
+    .formularioOrador{
+        width: 50%;
+    }
+    .contenedorFooter{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 30px 10% 30px 10%; /*desde arriba en sentido horario*/
+        align-items: center;
+        background-color: #26384b;   
+    }
+
+    .inst{
+        width: 50px;
+    }
+    .wsp{
+        width: 50px;
+    }
+
+}

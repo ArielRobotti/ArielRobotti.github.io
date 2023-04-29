@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@400;500&family=Nunito:wght@200;300;400;500;700&display=swap');
+
+/*como colocar una fuente descargada*/
+@font-face{
+    font-family: 'Montserrat';
+    src: url("../assets/font/Montserrat-VariableFont_wght.ttf");
+}
+/*
+html{
+    font-size:50px;
+}*/
+/*reseteo de valores*/
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    font-family: 'Alkatra', cursive;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    /*
+    font-weight: 400;
+    line-height: 1.5;
+    color: #000;
+    background-color: #fff;*/
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Alkatra', cursive;
+}
+
+.header{
+    background-color: rgb(56, 56, 56);
+    
+    height: 100vh;
+}
+.headerNav{
+    background-color: rgb(116, 116, 116);
+    height: 15%;
+   /* position:sticky;
+    top:0;
+    z-index: 10;*/
+    
+}
+.contenedorLogo{
+    display:inline-block;
+    width: 29%;
+}
+
+.contenedorLogo img{
+    width:150px;
+    display:inline-block;
+}
+.contenedorLogo h2{
+    display:inline-block;
+}
+.navegacion{
+    display:inline-block;
+    width: 70%;
+    text-align: right;
+    padding-right: 15px;
+   
+}
+.listaNav li{
+    display: inline-block;
+    list-style: none;
+    
+}
+
+.linkNav{
+    text-decoration: none;
+    color:white;
+    font-size:1rem;
+    font-weight: 500;
+    padding-left:1rem;
+}
+
+.laConferencia{
+    height: 85%;
+    background-image: url("../assets/img/ba1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position:relative;
+    z-index:1;
+  
+}
+.filtroOscuro{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.58);
+    z-index: 2;
+    position:absolute;
+    top:0;
+    left:0;
+}
+
+
+
+
+.parrafoConferencia{
+    font-weight: 700;
+    line-height: 2;
+    font-size: 30px;/*los px son unidades de medidas absolutas, que son fijos*/
+    font-size:1rem; /*1rem = 16px fuente recomendada, fuente grande 1rem = 20px, fuente muy pequeña 1rem =9px. el rem es una unidad relativa, relativa al tamaño de fuente que tiene configurado el html, quien lo configura, el user en primera instancia, y nosotros desde el css*/
+    z-index:3;
+}
+h1{
+    z-index:3;
+}
+.sectionOradores{
+   height: 85vh;
+   margin-bottom: 3rem;
+}
+.tituloRadores{
+    text-align: center;
+}
+
+.padreCards{
+    height:100%;
+    width: 75%;
+    margin:0 auto;
+    text-align: center;
+    padding-bottom: 3rem;
+}
+.card{
+    display:inline-block;
+    height:95%;
+    width: 30%;
+    border: 1px solid rgb(169, 169, 169);
+    margin-left:15px;
+    border-radius: 5px;
+    text-align: left;
+}
+
+.card img{
+    height:55%;
+    width: 100%;
+    object-fit: cover;
+    
+}
+
+.cardBody{
+    width: 100%;
+    padding:10px;
+}
+.tituloCardBody{
+    display:inline-block;
+}
+.lugarFecha{
+    height: 60vh;
+    position:relative;
+}
+
+
+.left{
+    width: 49%;
+    height: 100%;
+    display: inline-block;
+    border:1px solid white;
+    background-image: url("../assets/img/honolulu.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position:absolute;
+    top:0;
+    left:0;
+
+}
+
+
+.right{
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+    background-color: rgb(47, 47, 47);
+    color:white;
+    position:absolute;
+    top:0;
+    right:0;
+}
+
+
+.footer{
+    /*height: 10vh;*/
+    background-color: rgb(47, 47, 47);
+    color:white;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.footer div a{
+    text-decoration: none;
+    color:white;
+    padding-left: 10px;
+}
+
+.wsp{
+    height: 5rem;
+    width: 5rem;
+    margin: 0 1rem;
+    object-fit: cover;
+    position:fixed;
+    bottom: 3rem;
+    right: 1rem;
+}
+.iconInstagram{
+   font-size: 6rem;
+   color: rgb(238, 71, 99);
+   position:fixed;/*pierde su lugar dentro del padre y se mueve a partir de lo que veo de pantalla, es relativo al viewport, gracias a las propiedades de top, left,rigth, bottom*/
+   bottom: 3rem;/*desde abajo para arriba*/
+   left: 1rem;/*desde la izquierda a la derecha, alejandose de la izq*/
+   
+}
+/*
+fuentes interna visto
+favicon visto
+iconos visto
+position fixed sticky 
+position absolute relative
+-flexbox
+
+-mediasqueries responsive- MOBILE FIRST
+-bootstrap -MEDIAS QUERIES
+-GIT-GITHUB -GITHUBPAGES - NETLIFY
+
+-animaciones-transiciones- transformaciones
+-pseudoclases pseudoelementos :hover 
+-bem
+-javascript
+-segundo integrador
+
+*/

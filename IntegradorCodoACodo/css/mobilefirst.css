@@ -1,0 +1,32 @@
+/* estilos que se ven bien en un celular
+0 a 767px*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(53,58,64);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/*media querie para tablet*/
+@media screen and (min-width: 768px) and (max-width: 1199px){
+    .container{
+        flex-direction: row;
+    }
+}
+
+/*notebook*/
+@media screen and (min-width:1200px) and (max-width:1399px){
+    
+}
+
+/*escritorio*/
+@media screen (min-width:1400px) {
+    
+}

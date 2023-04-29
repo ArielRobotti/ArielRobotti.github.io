@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto</title>
+
+    <!-- favicon-->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <!--kit de fontawesome-->
+    <script src="https://kit.fontawesome.com/c538ed8188.js" crossorigin="anonymous"></script>
+    <!--estilos externos CORRECTA!!-->
+    <link rel="stylesheet" href="./css/estilos2.css">
+
+</head>
+<!--sintaxsis de atributo en linea
+     <body style="background-color: rgb(249, 159, 174);">-->
+
+<body>
+    <header class="header">
+        <div class="headerNav">
+            <div class="contenedorLogo">
+                <a href="assets/img/final_front_2023.jpg">
+                    <img src="./assets/img/codoacodo.png" alt="Logo">
+                </a>
+                <div>Conf Bs As</div>
+
+            </div>
+            <nav class="navegacion">
+                <ul class="listaNav">
+                    <li class="resizable"><a class="linkNav" href="#laConferencia">La Conferencia</a></li>
+                    <li class="resizable"><a class="linkNav" href="#losOradores">Los Oradores</a></li>
+                    <li class="resizable"><a class="linkNav" href="#lugarYfecha">Lugar y La Fecha</a></li>
+                    <li class="resizable"><a class="linkNav" href="#convierteteEnOrador">Conviertete en Orador</a></li>
+                    <li class="resizable"><a class="linkNav comprar" href="./pages/comprar_tickets.html">Comprar tickets</a></li>
+                </ul>
+
+            </nav>
+        </div>
+        <section id="laConferencia" class="laConferencia ">
+            <div class="contenedorTextConf">
+                <h1>Conf Bs As</h1>
+                <p class="parrafoConferencia">Por primera vez en la Argentina. Un evento donde los expertos que están
+                    modelando
+                    el futuro de internet compartirán sus conociminetos y experiencias con nuestra comunidad.
+                    Ven a conocer a los miembros del evento, a otro estudiantes de Codo a Codo y a los oradores de
+                    primer nivel
+                    que tenemos para ti. Te esperamos!
+                </p>
+                <div>
+                    <a class="btn resizable" href="#convierteteEnOrador">Quiero ser orador</a>
+                    <a class="btn btnComprar" href="./pages/comprar_tickets.html">Comprar tickets</a>
+                </div>
+
+            </div>
+
+
+        </section>
+    </header>
+    <main>
+        <section id="losOradores" class="sectionOradores">
+            <p class="tituloSmall">CONOCE A LOS</p>
+            <h1 class="tituloLarge">ORADORES</h1>
+            </h2>
+            <div class="padreCards">
+                <div class="card resizable">
+                    <img src="./assets/img/steve.jpg" alt="Steve Jobs">
+                    <div class="cardBody">
+                        <div class="cardTags">
+                            <h4 class="skill jsTag">Javascript</h4>
+                            <h4 class="skill reactTag">React</h4>
+                        </div>
+
+                        <h2 class="oradorName">Steve Jobs</h2>
+                        <p>Steve Jobs fue un visionario empresario y cofundador de Apple Inc., conocido por su liderazgo
+                            en la revolución de la computación personal con productos icónicos como el iPhone, el iPad y
+                            el Mac. Nacido en 1955 en San Francisco, California, Jobs también fue un pionero en la
+                            animación por computadora con Pixar y dejó un legado duradero en la tecnología y el diseño,
+                            siendo reconocido como uno de los genios creativos más influyentes del siglo XXI. Falleció
+                            en 2011, dejando una profunda huella en la industria tecnológica y en la cultura popular.
+                        </p>
+                    </div>
+
+                </div>
+                <div class="card resizable">
+                    <img src="./assets/img/bill.jpg" alt="Bill Gates">
+                    <div class="cardBody">
+                        <div class="cardTags">
+                            <h4 class="skill jsTag">Javascript</h4>
+                            <h4 class="skill reactTag">React</h4>
+                        </div>
+                        <h2 class="oradorName">Bill Gates</h2>
+                        <p>Bill Gates es un empresario y "filántropo" estadounidense, cofundador de Microsoft, una de
+                            las
+                            mayores empresas de software del mundo. Nacido en 1955 en Seattle, Washington, Gates
+                            revolucionó
+                            la industria de la tecnología con su visión y liderazgo en el desarrollo de software como el
+                            sistema operativo MS-DOS y Windows. Se convirtió en uno de los hombres más ricos del mundo,
+                            y
+                            junto con su esposa Melinda, ha donado generosamente a través de su fundación "filantrópica"
+                            para
+                            abordar problemas globales de salud y educación.</p>
+                    </div>
+
+                </div>
+                <div class="card resizable">
+                    <img src="./assets/img/ada.jpg" alt="Ada">
+                    <div class="cardBody">
+                        <div class="cardTags">
+                            <h4 class="skill negociosTag">Negocios</h4>
+                            <h4 class="skill startupsTag">Startups</h4>
+                        </div>
+                        <h2 class="oradorName">Ada Lovelace</h2>
+                        <p>Ada Lovelace fue una matemática y escritora británica del siglo XIX. Por su trabajo en la
+                            programación de
+                            la Máquina Analítica de Babbage, es considerada la primera programadora de la historia.
+                            Nacida en 1815
+                            en Londres, su enfoque visionario sobre el potencial de las máquinas la convirtió en una
+                            pionera en el
+                            campo de la informática. Sus notas sobre algoritmos y programas de computadora
+                            siguen siendo relevantes en la actualidad. Ada Lovelace dejó una huella perdurable
+                            en la historia de la tecnología y la informática.</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section id="lugarYfecha" class="lugarFecha">
+            <div class="left">
+
+            </div>
+            <div class="right">
+                <h2>Bs As - Octubre</h2>
+                <p class="descripciónEvento">Este mes de Octubre se desarrollará en la ciudad de Buenos Aires una
+                    histórica conferencia en la que participaran
+                    referentes de la tecnologia informática. Como todos sabemos, el vigor y la vigencia de estas
+                    celebridades es de tal
+                    magnitud que ni su propia condición vital les impedirá deleitarnos con su conocimineto, experiencias
+                    y generosidad.</p>
+                <a class="btn verMas" href="">Conocé Más</a>
+            </div>
+        </section>
+        <section id="convierteteEnOrador" class="formularioOrador">
+            <p class="tituloSmall">CONVIERTETE EN UN</p>
+            <h1 class="tituloLarge">ORADOR</h1>
+            <p>Anótate como orador para dar una charla ignite. Cuéntanos de qué quieres hablar!</p>
+            <form action="" autocomplete="on">
+                <div>
+                    <input class="inputNA" type="text" placeholder="Nombre" required>
+                    <input class="inputNA" type="text" placeholder="Apellido" required>
+                </div>
+                <div>
+                    <textarea class="textArea" name="" id="" cols="44" rows="6" placeholder="Sobre que quieres hablar?"
+                        required></textarea>
+                </div>
+                <p class="advice">Recuerda incluir un título para tu charla</p>
+                <div>
+                    <input type="submit" value="Enviar" class="formSubmit">
+                </div>
+            </form>
+        </section>
+    </main>
+    <div>
+        <a href=""><img class="inst resizable" src="./assets/img/Instagram.png"></i></a>
+        <a href=""><img class="wsp resizable" src="./assets/img/whatsapp.png" alt="what"></a>
+    </div>
+    <footer class="footer">
+        <div class="contenedorFooter">
+            <a href="">Preguntas Frecuentes</a>
+            <a href="">Contactanos</a>
+            <a href="">Prensa</a>
+            <a href="">Conferencias</a>
+            <a href="">Términos y condiciones</a>
+            <a href="">Privacidad</a>
+            <a href="">Estudiantes</a>
+
+        </div>
+
+    </footer>
+
+</body>
+
+</html>

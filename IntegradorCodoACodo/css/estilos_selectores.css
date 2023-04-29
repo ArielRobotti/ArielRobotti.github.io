@@ -1,0 +1,68 @@
+/*comentario en linea*/
+/*comentario multilinea
+  aca sigue el comentario
+
+*/
+/*css- lenguaje de estilos de diseño web, no es un lenguaje de programacion 
+hojas de estilos en cascada*/
+
+/* 
+selector{
+    propiedad:valor;
+    propiedad:valor;
+    propiedad:valor;
+    propiedad:valor;
+    propiedad:valor;
+    propiedad:valor;
+    propiedad:valor;
+}
+selectores basicos hay 3
+
+selector de etiqueta: es el menos importante de los tres, porque es el menos especifico
+
+
+selector de class (clasificacion): es un nivel intermedio de los tres, a nivel de especificidad
+un sector de mi html, lo puedo clasificar con una class y darle estilos especificos, y luego en otro sector
+necesito los mismos estilos, entonces puedo reutilizar esa misma clasificacion
+
+el selector de class por ahora va a ser el unico que vamos a usar cuando le demos estilos a nuestro html
+
+
+selector de id(identificador) : es el más importante a nivel de especificidad, identificador unico e irrepetible
+*/
+
+
+
+/*selector de class para poder llamarlos se hace a traves del punto*/
+.card{
+    border:1px solid black;
+    width: 50%;
+}
+.grisOscuro{
+    background-color: rgb(79, 79, 79)!important;
+}
+.grisClaro{
+    background-color: rgb(189, 189, 189);
+}
+
+#cardUno{
+    background-color: rgb(232, 31, 202);
+}
+
+/*selector de etiqueta*/
+div{
+    background-color: orange;
+}
+div{
+    background-color: rgb(246, 32, 32);
+}
+li{
+    color:rgb(109, 109, 109);
+}
+
+a{
+    color:blueviolet;
+}
+
+
+
